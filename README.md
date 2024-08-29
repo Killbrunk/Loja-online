@@ -15,3 +15,7 @@ Requisitos do site:
 -seção de promoçoes
 
 -possibilidade de envio de newsletter para os clientes cadastrados
+
+- Serão roupas femininas para o publico adulto
+
+-Terão de ter cores tematicas do flamengo(Vermelho, preto e branco)
