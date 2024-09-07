@@ -1,0 +1,16 @@
+h1{
+
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-image: url(/imagens/purpurina.webp);
+    background-repeat: repeat-x;
+    background-size: 100% 14.26%;
+}
+
+video{
+
+    
+}
