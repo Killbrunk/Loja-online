@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BasiQ</title>
+        <link rel="stylesheet" href="cadastro.css">
+        
+    </head>
+    <body>
+        <h1>Cadastro de Usuário</h1>
+
+        <form>
+            <div>
+                <fieldset style="width: 500px;">
+                    <legend>Dados para login:</legend>
+                    <label for="txtnomedeusuario">Nome de Usuário:</label>
+                    <input type="text" name="txtnomedeusuario" placeholder="fulana-de-tal@123">
+                    <br>
+                    <label id="senha" for="txtsenha" >Senha:</label>
+                    <input type="password" name="txtsenha" placeholder="deve conter 8 digitos,"><br>
+                </fieldset>
+            </div>
+        </form>
+        <form>
+            <fieldset style="width: 500px;">
+                <legend>Conte-nos umpouco de você</legend>
+                <div class="nomedousuario">
+                    <label for="txtnome">Nome:</label>
+                    <input type="text" name="txtnome" placeholder="trezunto da silva"><br>
+                </div>
+                <div class="idadedousuario">
+                    <label for="txtidade">Idade:</label>
+                    <input type="number" name="txtidade" placeholder="**" style="margin-left: 5px;"><br>
+                </div>
+                <div class="sexodousuario">
+                    <label for="sexo" >Sexo:</label>
+                    <input type="radio" name="sexo">
+                    <label for="sexo" >Masculino</label>                    
+                    <input type="radio" name="sexo">
+                    <label for="sexo" >Feminino</label>
+                    <input type="radio" name="sexo">
+                    <label for="sexo" >Prefiro não responder</label>
+                </div>
+            </fieldset>
+        </form>
+
+        <script>
+
+        </script>
+    </body>
+</html>

@@ -1,16 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 h1{
 
     display: flex;
     justify-content: center;
-}
-
-body{
+    position: fixed;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    font-family: "Dancing Script";
+    font-size: 55px;
     background-image: url(/imagens/purpurina.webp);
     background-repeat: repeat-x;
-    background-size: 100% 14.26%;
+    background-size: 100%;
+
 }
 
-video{
+.menu{
 
-    
+display: flex;
+justify-content: baseline;
+position: fixed;
+padding-top: 75px;
+
+
+}
+
+.topo{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    height: 75px;
+    padding: 15px 60px 0 0;
+}
+
+.perfil{
+
+    height: 45px;
+    position: fixed;
+    border: solid;
+    border-radius: 50%;
+    margin-right: 100px;
+}
+
+.favoritos{
+
+    height: 45px;
+    position: fixed;
+    margin-right: 60px;
+
+}
+
+.sacola{
+
+    height: 45px;
+    position: fixed;
+    margin-right: 30px;
+}
+
+.homepage{
+
+padding-top: 15%;
 }
